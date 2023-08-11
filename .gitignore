@@ -1,14 +1,15 @@
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-.cpcache/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><input type="number" id="one" placeholder="Number"></div>
+    <div><input type="number" id="two" placeholder="base"></div>
+    <div><P id="result"></P></div>
+    <div><button onclick="binary()" id="button">Thisisabutton</button></div>
+    <Script src="./test.js"></Script>
+</body>
+</html>
